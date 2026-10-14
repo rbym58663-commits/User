@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+
+}
+
+body {
+    background-color: #001;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+p {
+    font-size: 25px;
+}
+
+.profile {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: 150px;
+}
+
+.img-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid white;
+}
+
+.img-box img {
+    width: 100%;
+}
+
+.profile h2 {
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.menu {
+    background-color: #070e16;
+    width: 35px;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+    transition: .5s;
+    text-transform: capitalize;
+}
+
+.menu:hover {
+    width: 400px;
+}
+
+ul {
+    list-style: none;
+    position: relative;
+    height: 95%;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+ul li a:hover,
+.active,
+.date-info .box:hover,
+td:hover {
+    background-color: #363636;
+}
+
+.log-out {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.log-out a {
+    background-color: #a00;
+}
+
+i {
+    font-size: 25px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 90%;
+    height: 100vh;
+}
+
+.titel {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: dimgrey;
+    border-radius: 10px;
+}
+
+.titel a {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.date-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box {
+    background-color: darkslategrey;
+    height: 150px;
+    flex-basis: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.date-info .box i {
+    font-size: 45px;
+}
+
+.date-info .box .data {
+    text-align: center;
+
+}
+
+.date-info .box .data span {
+    font-size: 30px;
+}
+
+.info {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: dimgrey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-spacing: 7px;
+    font-size: 20px;
+}
+
+th,
+td {
+    background-color: darkslategrey;
+    height: 40px;
+    border-radius: 10px;
+}
+
+th {
+    background-color: #0f0696;
+}
+
+.price,
+.conte {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.price {
+    background-color: #6d8346;
+}
+
+.conte {
+    background-color: #bea054;
+}
